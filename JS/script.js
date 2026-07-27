@@ -1,6 +1,6 @@
 AOS.init();
 
-const profilowe = document.getElementById('profilowe');
+// const profilowe = document.getElementById('profilowe');
 
 // profilowe.addEventListener('mouseover', () => {
 //   for (let i = 0; i <= 10; i++) {
