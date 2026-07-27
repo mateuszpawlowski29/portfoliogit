@@ -1,24 +1,22 @@
 AOS.init();
 
-console.log('siemanko')
-
 const profilowe = document.getElementById('profilowe');
 
-profilowe.addEventListener('mouseover', () => {
-  for (let i = 0; i <= 10; i++) {
-    setTimeout(() => {
-      profilowe.src = `img/animacja/${i}.png`;
-    }, i * 25);
-  }
-});
+// profilowe.addEventListener('mouseover', () => {
+//   for (let i = 0; i <= 10; i++) {
+//     setTimeout(() => {
+//       profilowe.src = `img/animacja/${i}.png`;
+//     }, i * 25);
+//   }
+// });
 
-profilowe.addEventListener('mouseout', () => {
-  for (let i = 10; i >= 0; i--) {
-    setTimeout(() => {
-      profilowe.src = `img/animacja/${i}.png`;
-    }, (10 - i) * 25);
-  }
-});
+// profilowe.addEventListener('mouseout', () => {
+//   for (let i = 10; i >= 0; i--) {
+//     setTimeout(() => {
+//       profilowe.src = `img/animacja/${i}.png`;
+//     }, (10 - i) * 25);
+//   }
+// });
 
 function animacja(idJezyka, idProcenty, wartoscKoncowa, predkosc) {
     const jezyk = document.getElementById(idJezyka);
