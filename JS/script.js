@@ -79,7 +79,7 @@ function uruchomAnimacje() {
 
   if (czyElementWidoczny(jsElement) && !jsAnimacja) {
     jsAnimacja = true;
-    animacja('js', 'js-wartosc', 65, 20);
+    animacja('js', 'js-wartosc', 85, 20);
   }
 }
 
