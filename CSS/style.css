@@ -338,6 +338,16 @@ header p{
     transform: scale(1.1);
 }
 
+.credly img{
+    width: 5vw;
+    box-shadow: 5px 5px 8px 5px rgba(66, 68, 90, 1);
+    transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.2s;
+    border-radius: 60%;
+}
+.credly img:hover{
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 767px){
     nav{
         padding: 2vw 0;
