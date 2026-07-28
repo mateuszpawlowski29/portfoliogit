@@ -596,7 +596,10 @@ header p{
         font-size: 3vw;
     }
     .odznaka img{
-        width: 30vw;
+        width: 25vw;
+    }
+    .credly img{
+        width: 25vw;
     }
     .projekt{
         width: 60vw;
